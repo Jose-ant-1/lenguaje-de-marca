@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalogo>
+    <pelicula genero="accion" duracion="150">
+        <titulo>Gladiator</titulo>
+        <director>Ridley Scott</director>
+        <reparto>
+            <actor>Rusell Croew</actor>
+            <actor>Joaquin Phoenix</actor>
+            <actor>Connie Nietsen</actor>
+        </reparto>
+        <fecha_estreno>
+            <dia>1</dia>
+            <mes>1</mes>
+            <anio>2000</anio>
+        </fecha_estreno>
+    </pelicula>
+    <pelicula genero="ciencia ficcion" duracion="200">
+        <titulo>la llegada</titulo>
+        <director>Ridley Scott</director>
+        <reparto>
+            <protagonista>Rusell Croew</protagonista>
+            <secundario1>Joaquin Phoenix</secundario1>
+            <secundario2>Connie Nietsen</secundario2>
+        </reparto>
+        <fecha_estreno>
+            <dia>1</dia>
+            <mes>1</mes>
+            <anio>2000</anio>
+        </fecha_estreno>
+
+    </pelicula>
+
+
+</catalogo>
