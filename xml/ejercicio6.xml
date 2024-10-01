@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido codigo="1111">
+    <dueño>José Antonio Lojo</dueño>
+    <producto>Bicicleta A2020</producto>
+    <direccion>Calle Barco4</direccion>
+        <piso>3</piso>
+        <letra>A</letra>
+    <fecha>20/9/2019</fecha>
+</pedido>
