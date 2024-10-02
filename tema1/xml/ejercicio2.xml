@@ -5,27 +5,36 @@
         <titulo>Siega</titulo>
         <autor>Nea Shusterman</autor>
         <anio_publicacion>2018</anio_publicacion>
-        <genero>ficcion</genero>
+        <generos>
+            <genero>ficcion</genero>
+            <genero>psicológico</genero>
+        </generos>
         <idioma>espaniol</idioma>
         <sinopsis>Lorem ipsum</sinopsis>
     </libro>
-
+    <!--Este libro pertenece a una trilogía-->
     <libro>
         <titulo>El Quijote</titulo>
         <autor>Miguel De Cervantes</autor>
         <anio_publicacion>1605</anio_publicacion>
-        <genero>ficcion</genero>
+        <generos>
+            <genero>clásico</genero>
+            <genero>ficcion</genero>
+        </generos>
         <idioma>espaniol</idioma>
         <sinopsis>Lorem ipsum</sinopsis>
     </libro>
-
+    <!--Este libro pertenece a una bilogia(dos libros en total)-->
     <libro>
         <titulo>la_celestina</titulo>
         <autor>Fernando De Rojas</autor>
         <anio_publicacion>1499</anio_publicacion>
-        <genero>Dramatico</genero>
+        <generos>
+            <genero>Dramatico</genero>
+            <genero>clásico</genero>
+        </generos>
         <idioma>Espaniol</idioma>
         <sinopsis>Lorem ipsum</sinopsis>
     </libro>
-
+    <!--Este es un libro que es individual-->
 </biblioteca>
