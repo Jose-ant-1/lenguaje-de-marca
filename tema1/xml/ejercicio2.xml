@@ -9,7 +9,7 @@
             <genero>ficcion</genero>
             <genero>psicológico</genero>
         </generos>
-        <idioma>espaniol</idioma>
+        <idioma>español</idioma>
         <sinopsis>Lorem ipsum</sinopsis>
     </libro>
     <!--Este libro pertenece a una trilogía-->
@@ -21,7 +21,7 @@
             <genero>clásico</genero>
             <genero>ficcion</genero>
         </generos>
-        <idioma>espaniol</idioma>
+        <idioma>español</idioma>
         <sinopsis>Lorem ipsum</sinopsis>
     </libro>
     <!--Este libro pertenece a una bilogia(dos libros en total)-->
@@ -33,7 +33,7 @@
             <genero>Dramatico</genero>
             <genero>clásico</genero>
         </generos>
-        <idioma>Espaniol</idioma>
+        <idioma>Español</idioma>
         <sinopsis>Lorem ipsum</sinopsis>
     </libro>
     <!--Este es un libro que es individual-->

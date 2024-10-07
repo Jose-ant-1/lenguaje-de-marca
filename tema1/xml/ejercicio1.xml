@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <europa>
 
-    <Portugal>
-        <poblacion>10.41_millones</poblacion>
+    <portugal>
+        <poblacion>10.41 millones</poblacion>
         <capital>Lisboa</capital>
-        <superficie>92.152km</superficie>
+        <superficie unidad="km">92.152</superficie>
         <moneda>euro</moneda>
-    </Portugal>
+    </portugal>
 
     <lituania>
-        <poblacion>2832_millones</poblacion>
-        <capital>vilna</capital>
-        <superficie>65.200km</superficie>
+        <poblacion>2832 millones</poblacion>
+        <capital>Vilna</capital>
+        <superficie unidad="km">65.200</superficie>
         <moneda>euro</moneda>
     </lituania>
 
-    <Alemania>
-        <poblacion>83.8_millones</poblacion>
-        <capital>berlin</capital>
-        <superficie>375,592km</superficie>
+    <alemania>
+        <poblacion>83.8 millones</poblacion>
+        <capital>Berlin</capital>
+        <superficie unidad="km">375,592</superficie>
         <moneda>euro</moneda>
-    </Alemania>
+    </alemania>
 
     <noruega>
-        <poblacion>5.457_millones</poblacion>
-        <capital>oslo</capital>
-        <superficie>385,207km</superficie>
-        <moneda>corona_noruega</moneda>
+        <poblacion>5.457 millones</poblacion>
+        <capital>Oslo</capital>
+        <superficie unidad="km">385,207</superficie>
+        <moneda>corona noruega</moneda>
     </noruega>
 
 </europa>
