@@ -1,0 +1,36 @@
+h1{
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: bold;
+    color: darkblue;
+    text-align: center;
+    background-color: white;
+    border-top: solid  blue ;
+    border-bottom: solid  blue ;
+    margin: 20px auto;
+    padding: 2px;
+}
+
+body{
+    color: antiquewhite;
+}
+
+nav{
+    background-color: lightcoral;
+    font-size: 14px; 
+    Color:darkred ; 
+    font-family: Arial, Times, sans-serif; 
+    /*border para darle un borde especial*/ 
+    border:  3px solid ; 
+    /*border-radius lo redondea*/
+    border-radius: 25px;
+    /*margin para marcar los bordes*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*box-shadow para darle una sombra*/
+    box-shadow: 2px 2px 5px black;
+    /*width para dar el ancho */
+    width: 60%;
+    /*padding para margen general*/
+    padding: 10px;
+}
