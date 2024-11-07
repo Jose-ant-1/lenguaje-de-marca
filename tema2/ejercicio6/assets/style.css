@@ -46,3 +46,32 @@ table.horario tr.gris{
 table.horario tr.recreo{
     background-color: aqua;
 }
+
+table.tabla2 td,th{
+    margin: auto;
+    text-align: center;
+}
+
+table.tabla2{
+    margin: auto;
+    text-align: center;
+    border: solid, 1px;
+    border-collapse: collapse;
+}
+
+table.tabla2 th{
+    background-color: lightblue;
+}
+
+
+
+table.tabla2 caption{
+    color: darkblue;
+}
+
+.amarillo{
+    background-color: lightyellow;
+}
+
+
+
