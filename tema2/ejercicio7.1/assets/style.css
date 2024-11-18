@@ -50,6 +50,7 @@ fieldset{
 
 .primero select {
     background-color: white;
+    font-weight: normal;
 }
 
 .primero legend{
@@ -67,10 +68,9 @@ fieldset{
 }
 
 .segundo input{
-    text-align: left;
     background-color: white;
-
 }
+
 .segundo {
     background-color: #ffcc99;
     border: solid, 1px;
@@ -92,6 +92,22 @@ fieldset{
 
 }
 
+.segundo th {
+    color: black;
+    margin: auto;
+    text-align: center;
+
+}
+
+.segundo table {
+    margin: auto;
+    padding: 8px;
+    width: 90%;
+    text-align: center;
+}
+
+
+
 .cuadro {
     font-family: 'Times New Roman', Times, serif;
     size: 18px;
@@ -101,3 +117,8 @@ fieldset{
     margin-left: 50px;
     margin-right: 50px;
 }
+
+.segundo select{
+    background-color: white;
+}
+
