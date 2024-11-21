@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esto es una página de prueba"/>
+    <meta name="author" content="José Antonio González"/>
+    <meta name="keywords" content="etiquetas,pagina"/>
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Formulario con estilo</title>
+</head>
+<body>
+    <form class="segundo">
+    <fieldset>
+        <h1>- Pedido de pizza -</h1>
+        <div class="superior">
+           <label for="nombre2">Nombre</label>
+           <input type="text" name="nombre2" id="nombre2">
+        </div>
+        <div class="superior">
+           <label for="direccion2">Dirección</label>
+           <input type="text" name="direccion2" id="direccion2">
+        </div>
+        <div class="medio">
+           <p>Ingredientes</p>
+           <div>
+               <input type="checkbox" name="ingredientes2" id="ingredientes2">Queso</input></br>
+               <input type="checkbox" name="ingredientes2" id="ingredientes2">Pimiento</input></br>
+               <input type="checkbox" name="ingredientes2" id="ingredientes2">Cebolla</input></br>
+           </div>
+           <p>Tamaño</p>
+           <div>
+               <input type="radio" name="tamaño2" id="tamaño2">Pequeña</input></br>
+               <input type="radio" name="tamaño2" id="tamaño2">Mediana</input></br>
+               <input type="radio" name="tamaño2" id="tamaño2">Grande</input></br>
+           </div>
+           <p>Forma de pago</p>
+           <div>
+               <select name="pago2" id="pago2">
+                   <option value="Visa">Visa</option>
+                   <option value="Visa">MasterCard</option>
+                   <option value="Visa">Maestro</option>
+               </select>
+            </div>
+           </div>
+        </div>
+        <p>Intrucciones especiales</p>
+           <div>
+               <label for="intrucciones"></label>
+               <textarea name="intrucciones" id="instruccion"></textarea>
+        <div>
+            <input type="submit" value="Enviar"/>
+        </div>
+        <div>
+            <input type="reset" value="Borrar"/>
+        </div>
+    </fieldset>
+        
+    </form>
+</body>
+</html>
+
+

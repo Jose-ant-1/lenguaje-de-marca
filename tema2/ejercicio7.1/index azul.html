@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esto es una página de prueba"/>
+    <meta name="author" content="José Antonio González"/>
+    <meta name="keywords" content="etiquetas,pagina"/>
+    <link rel="stylesheet" href="./assets/style azul.css">
+    <title>Formulario con estilo</title>
+</head>
+<body>
+    <form id="form1" name="form1" action="pagina-destino.php">
+        <fieldset>
+        <legend>Pedido de Pizza</legend>
+        <div class="primero">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" >
+        </div>
+        <div>
+            <label for="direccion">Dirección</label>
+            <input type="text" name="direccion" id="direccion" >
+        </div>
+        <div>
+            <label for="ingrediente" >Ingredientes</label>
+            <input type="radio" name="ingrediente" id="ingrediente" >queso</input>
+            <input type="radio" name="ingrediente" id="ingrediente" >cebolla</input>
+            <input type="radio" name="ingrediente" id="ingrediente" >pimiento</input>
+        </div>
+        <div>
+            <label for="tamanio">Tamaño</label>
+            <input type="checkbox" name="tamanio" id="tamanio">Pequeña</input>
+            <input type="checkbox" name="tamanio" id="tamanio">Mediana</input>
+            <input type="checkbox" name="tamanio" id="tamanio">Grande</input>
+        </div>
+        <div>
+            <label for="tarjeta">Tarjate</label>
+            <select name="tarjeta" id="tarjeta">
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="otro">otro</option>
+            </select>
+        </div>
+        <div>
+            <label for="comentario">Comentarios</label>
+            <textarea></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Enviar"/>
+            <input type="reset" value="Borrar"/>
+        </form>
+        </fieldset>
+        </div>
+        </form>
+</body>
+</html>
