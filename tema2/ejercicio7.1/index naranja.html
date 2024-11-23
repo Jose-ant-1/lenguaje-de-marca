@@ -7,11 +7,11 @@
     <meta name="description" content="Esto es una página de prueba"/>
     <meta name="author" content="José Antonio González"/>
     <meta name="keywords" content="etiquetas,pagina"/>
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/style naranja.css">
     <title>Formulario con estilo</title>
 </head>
 <body>
-    <form class="segundo">
+    <form>
     <fieldset>
         <h1>- Pedido de pizza -</h1>
         <div class="superior">
@@ -22,37 +22,38 @@
            <label for="direccion2">Dirección</label>
            <input type="text" name="direccion2" id="direccion2">
         </div>
-        <div class="medio">
-           <p>Ingredientes</p>
+        <div class="medio">  
            <div>
+               <label for="ingredientes2">Ingredientes</label>
                <input type="checkbox" name="ingredientes2" id="ingredientes2">Queso</input></br>
                <input type="checkbox" name="ingredientes2" id="ingredientes2">Pimiento</input></br>
                <input type="checkbox" name="ingredientes2" id="ingredientes2">Cebolla</input></br>
            </div>
-           <p>Tamaño</p>
            <div>
-               <input type="radio" name="tamaño2" id="tamaño2">Pequeña</input></br>
-               <input type="radio" name="tamaño2" id="tamaño2">Mediana</input></br>
-               <input type="radio" name="tamaño2" id="tamaño2">Grande</input></br>
+                <label for="tamanio2">Tamaño</label>
+               <input type="radio" name="tamanio2" id="tamanio2">Pequeña</input></br>
+               <input type="radio" name="tamanio2" id="tamanio2">Mediana</input></br>
+               <input type="radio" name="tamanio2" id="tamanio2">Grande</input></br>
            </div>
-           <p>Forma de pago</p>
            <div>
+            <label for="pago2">Forma de pago</label>
                <select name="pago2" id="pago2">
                    <option value="Visa">Visa</option>
                    <option value="Visa">MasterCard</option>
                    <option value="Visa">Maestro</option>
                </select>
             </div>
-           </div>
         </div>
-        <p>Intrucciones especiales</p>
-           <div>
-               <label for="intrucciones"></label>
-               <textarea name="intrucciones" id="instruccion"></textarea>
+        <div class="bajo">
+            <label for="intrucciones">instrucciones especiales</label></br>
+        </div>
         <div>
+            <textarea name="intrucciones" id="instrucciones"></textarea>
+        </div>
+        <div class="enviar">
             <input type="submit" value="Enviar"/>
         </div>
-        <div>
+        <div class="borrar">
             <input type="reset" value="Borrar"/>
         </div>
     </fieldset>
@@ -62,3 +63,5 @@
 </html>
 
 
+
+</br>
