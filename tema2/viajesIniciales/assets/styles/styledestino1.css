@@ -1,0 +1,94 @@
+h1{
+    text-align: center;
+    color: white;
+    background-color: rgb(50, 50, 50);
+    border-bottom: solid white 1px;
+    background-color: rgb(50, 50, 50);
+}
+
+h2{
+    border: solid purple;
+    padding: 4px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+p{
+    text-align: justify;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline; 
+    font-weight: bold;
+}
+
+.menu, a{
+    color: white;
+    text-align: right;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: rgb(50, 50, 50);
+}
+
+.japon1{
+    float: right;
+    padding-left: 5px;
+}
+
+.japon2{
+    float: left;
+    padding-right: 5px;
+}
+
+ul{
+    border-right: dotted;
+    border-left: dotted;
+    background-color: lightgray;
+    margin: auto;
+}
+
+table, td,th{
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    border: solid 1px white;
+}
+
+table{
+    margin: auto;
+    text-align: center;
+    border: dotted, 1px;
+    border-collapse: collapse;
+}
+
+table th{
+    background: green;
+    color: white;
+    border-bottom: solid 1px;
+}
+
+table{
+    border: dotted;
+}
+
+table caption{
+    color: green;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: green;
+    margin: auto;
+}
+
+.gris{
+    background-color: lightgray;
+}

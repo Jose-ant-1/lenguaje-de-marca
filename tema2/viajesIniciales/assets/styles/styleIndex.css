@@ -1,0 +1,65 @@
+body{
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: rgb(50, 50, 50);
+    border-bottom: solid white 1px;
+    background-color: rgb(50, 50, 50);
+}
+
+a:link.menu{
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+}
+
+a:hover.menu{
+    color: white;
+    text-decoration: underline; 
+    font-weight: bold;
+}
+
+.menu{
+    color: white;
+    text-align: right;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: rgb(50, 50, 50);
+}
+
+.imagenCentrada{
+    text-align: center;
+}
+
+.azul{
+    color: blue;
+}
+
+.verde{
+    color: green;
+}
+
+.enlaces{
+    color: black;
+    background-color: white;
+}
+
+.enlaces a:link{
+    color: black;
+    text-decoration: underline; 
+
+}
+
+.enlaces a:hover{
+    color: green;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.enlacesa:visited{
+    color: black;
+    text-decoration: underline;
+    text-transform: none;
+}
