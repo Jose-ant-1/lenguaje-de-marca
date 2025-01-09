@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <pedido codigo="1111">
     <destinatario>
@@ -20,4 +21,28 @@
         <mes>09</mes>
         <anio>2019</anio>
     </fecha>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido codigo="1111">
+    <destinatario>
+        <nombre>José Antonio</nombre>
+        <apellido>Lojo</apellido>
+    </destinatario>
+    <articulos>
+        <articulo modelo="A2020">Bicicleta</articulo>
+        <articulo modelo="1345">Ordenador</articulo>
+    </articulos>
+    <direccion>
+        <provincia>Málaga</provincia>
+        <codigopostal>29004</codigopostal>
+        <calle>Barco 4</calle>
+        <piso>3</piso>
+        <letra>A</letra>
+    </direccion>
+    <fecha>
+        <dia>20</dia>
+        <mes>09</mes>
+        <anio>2019</anio>
+    </fecha>
+>>>>>>> 82f4e9503a8762dedbb026e7109ff3054f9e1c19
 </pedido>

@@ -1,0 +1,64 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: black;
+    margin: auto;
+    background-color: #E9ECFC;
+    /*ancho de pagina width*/
+    width: 90%;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: red;
+    text-align: center;
+}
+
+h2{
+    color: darkblue;
+    text-align: right;
+    border-bottom: solid blue 2px;
+    padding: 2px;
+}
+
+nav{
+    font-family: sans-serif;
+    color: blue;
+    background-color: yellow;
+    font-size: 14px; 
+    font-family: Arial, Times, sans-serif; 
+    /*border para darle un borde especial*/ 
+    border:  2px solid ; 
+    /*border-radius lo redondea*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: auto;
+    /*width ajustar el ancho */
+    width: 450px;
+    /*padding para margen general*/
+    padding: 10px;
+    border-style: dashed;
+}
+
+
+.imagenSuperior{
+    text-align: center;
+}
+
+.imagenesInferior{
+    text-align: center;
+}
+
+.colorprecio{
+    color: red;
+}
+
+.precio{
+    background-color: white;
+    padding: 2px;
+    font-weight: bold;
+    margin: auto;
+    font-size: 24px;
+    text-align: center;
+}

@@ -1,0 +1,84 @@
+body{
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: normal;
+    color: black;
+    background-color: #DFF5FD;
+    margin: 20px;
+}
+
+h1{
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: bold;
+    color: darkblue;
+    text-align: center;
+    background-color: white;
+    border-top: solid  blue ;
+    border-bottom: solid  blue ;
+    margin: 20px auto;
+    padding: 2px;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.verde{
+    color: green;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.rojo{
+    color: red;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.cuadro1{
+    background-color: lightcoral;
+    font-size: 14px; 
+    Color:darkred ; 
+    font-family: Arial, Times, sans-serif; 
+    /*border para darle un borde especial*/ 
+    border:  3px solid ; 
+    /*border-radius lo redondea*/
+    border-radius: 25px;
+    /*margin para marcar los bordes*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /*box-shadow para darle una sombra*/
+    box-shadow: 2px 2px 5px black;
+    /*width para dar el ancho */
+    width: 60%;
+    /*padding para margen general*/
+    padding: 10px;
+}
+
+.cuadro2{
+    background-color: skyblue;
+    font-size: 14px; 
+    Color:blue ; 
+    font-size: Arial, Times, sans-serif;  
+    /*border para darle un borde especial*/
+    border: 3px dotted; 
+    /*border-radius lo redondea*/
+    border-radius: 25px;
+    /*margin para marcar los bordes*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /*box-shadow para darle una sombra*/
+    box-shadow: 2px 2px 5px black;
+    /*width para dar el ancho */
+    width: 60%;
+    /*padding para margen general*/
+    padding: 10px;
+}

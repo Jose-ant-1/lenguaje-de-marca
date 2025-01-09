@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <arboles>
 
@@ -7,3 +8,14 @@
 
 
 </arboles>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<arboles>
+
+    <nombre>Litchi</nombre>
+    <variedad>Kway may pink</variedad>
+    <origen></origen>
+
+
+</arboles>
+>>>>>>> 82f4e9503a8762dedbb026e7109ff3054f9e1c19

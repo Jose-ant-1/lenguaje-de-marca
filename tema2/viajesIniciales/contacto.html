@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -78,4 +79,86 @@
     </form>
 
 </body>
+=======
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/stylecontacto.css">
+    <title>Contactanos</title>
+</head>
+<body>
+    <div class="menu">
+        <h1>Contacta con nosotros</h1>
+        <a href="./index.html">Inicio</a>
+        <a href="./destino1.html">Japón</a>
+        <a href="./contacto.html">Contacto</a>
+    </div>
+    <br/>
+    <form>
+        <h1 class="formulario">Formulario</h1>
+        <div>
+            <label for="email" >Email</label>
+            <input type="email" name="email" id="email" placeholder="Introducir Email">
+        </div>
+        <div>
+            <label for="contrasenia">Contraseña</label>
+            <input type="password" name="contrasenia" id="contrasenia" required placeholder="Introducir contraseña">
+        </div>
+        <div>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre">
+        </div>
+        <div>
+            <label for="color">Color preferido:</label>
+            <input type="color" name="color" id="color">
+        </div>
+        <div>
+            <label for="web">Web</label>
+            <input type="url" name="web" id="web">
+        </div>
+        <div>
+            <label for="telefono">Teléfono: </label>
+            <input type="number" name="telefono" id="telefono">
+        </div>
+        <div>
+            <label for="fechaNacimiento">Fecha nacimiento: </label>
+            <input type="date" name="fechaNacimiento" id="fechaNacimiento">
+        </div>
+        <div>
+            <label for="transporte">Transporte</label>
+            <input type="checkbox" name="transporte" id="transporte" value="coche">Coche</input>
+            <input type="checkbox" name="transporte" id="transporte" value="barco">Barco</input>
+            <input type="checkbox" name="transporte" id="transporte" value="tren" checked>Tren</input>
+            <input type="checkbox" name="transporte" id="transporte" value="avion">Avión</input>
+        </div>
+        <div class="bajo">
+            <div class="transp">
+                <label for="guia">Opción a Guia</label>
+                <input type="radio" name="guia" id="guia" checked>Si</input>
+                <input type="radio" name="guia" id="guia">No</input>
+            </div>
+            <div class="guia">
+                <label for="pago">Forma de pago</label>
+                <select name="pago" id="pago">
+                    <option value="contado">Al contado</option>
+                    <option value="visa">Visa</option>
+                    <option value="mastercard" selected>Mastercard</option>
+            </select>
+            </div><br/>
+            
+        </div>
+        <div class="enviar">
+            <input type="submit" value="Enviar"/>
+        </div>
+        <div class="borrar">
+            <input type="reset" value="Borrar"/>
+        </div>
+
+
+    </form>
+
+</body>
+>>>>>>> 82f4e9503a8762dedbb026e7109ff3054f9e1c19
 </html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1{
     text-align: center;
     color: white;
@@ -90,4 +91,98 @@ div.enviar {
 div.borrar {
     margin: 20%;
     display: inline;
+=======
+h1{
+    text-align: center;
+    color: white;
+    background-color: rgb(50, 50, 50);
+    border-bottom: solid white 1px;
+    background-color: rgb(50, 50, 50);
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline; 
+    font-weight: bold;
+}
+
+.menu, a{
+    color: white;
+    text-align: right;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: rgb(50, 50, 50);
+}
+
+.formulario{
+    background-color: lightgray;
+    color: black;
+    border-bottom: solid 2px;
+}
+
+form{ 
+    margin: auto; 
+    background: lightgray; 
+    border:solid black 2px;  
+    width: 600px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+div { 
+    display: block; 
+    clear: both;  
+    margin: 10px 0 0 0;
+}
+
+div label {  
+    display: inline; 
+    width: 20%;   
+    float: left; 
+    border-color: red;
+}
+
+div input{
+    border-color: red;
+}
+
+
+
+
+
+
+.bajo{
+    display: inline;
+    padding: 3px;
+}
+
+.bajo label{
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+div.enviar {
+    margin: 20%;
+    display: inline;
+
+}
+
+div.borrar {
+    margin: 20%;
+    display: inline;
+>>>>>>> 82f4e9503a8762dedbb026e7109ff3054f9e1c19
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <europa>
 
@@ -29,4 +30,37 @@
         <moneda>corona noruega</moneda>
     </noruega>
 
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<europa>
+
+    <portugal>
+        <poblacion>10.41 millones</poblacion>
+        <capital>Lisboa</capital>
+        <superficie unidad="km">92.152</superficie>
+        <moneda>euro</moneda>
+    </portugal>
+
+    <lituania>
+        <poblacion>2832 millones</poblacion>
+        <capital>Vilna</capital>
+        <superficie unidad="km">65.200</superficie>
+        <moneda>euro</moneda>
+    </lituania>
+
+    <alemania>
+        <poblacion>83.8 millones</poblacion>
+        <capital>Berlin</capital>
+        <superficie unidad="km">375,592</superficie>
+        <moneda>euro</moneda>
+    </alemania>
+
+    <noruega>
+        <poblacion>5.457 millones</poblacion>
+        <capital>Oslo</capital>
+        <superficie unidad="km">385,207</superficie>
+        <moneda>corona noruega</moneda>
+    </noruega>
+
+>>>>>>> 82f4e9503a8762dedbb026e7109ff3054f9e1c19
 </europa>

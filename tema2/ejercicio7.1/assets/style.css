@@ -1,0 +1,124 @@
+body{
+    size: 10px;
+    font-style: normal;
+    color: black;
+    background-color: lightslategrey;
+    padding: 10px;
+}
+
+form{
+    background-color: #ffcc99;
+}
+
+h1{
+    background-color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding: 2px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: darkred;
+}
+
+fieldset{
+    border: 2px solid white;
+    color: white;
+}
+.primero div{
+    background-color: darkblue;
+    border: 55px solid color darkblue;
+    padding: 6px;
+}
+
+.primero{
+    /*background-color: darkblue;*/
+    font-weight: bolder;
+}
+
+.primero label{
+    color: white;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-right: 30px;
+    
+}
+
+.primero input {
+    background-color: white;
+}
+
+.primero select {
+    background-color: white;
+    font-weight: normal;
+}
+
+.primero legend{
+    margin: 5px 5px 5px 5px;
+}
+
+
+.segundo label{
+    background-color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 4px;
+    
+}
+
+.segundo input{
+    background-color: white;
+}
+
+.segundo {
+    background-color: #ffcc99;
+    border: solid, 1px;
+}
+
+.instruccion label{
+    text-align: center;
+}
+
+.instruccion {
+    background-color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.segundo th {
+    color: black;
+    margin: auto;
+    text-align: center;
+
+}
+
+.segundo table {
+    margin: auto;
+    padding: 8px;
+    width: 90%;
+    text-align: center;
+}
+
+
+
+.cuadro {
+    font-family: 'Times New Roman', Times, serif;
+    size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.segundo select{
+    background-color: white;
+}
+

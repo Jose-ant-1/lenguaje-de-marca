@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     text-align: center;
 }
@@ -65,3 +66,72 @@ body{
     grid-column-start: 1; /*marca la columna en la que empieza a estirar en horizonta*/
     grid-column-end: 3; /*marca la columna en la que termina de estirar en horizontal*/
 }
+=======
+body{
+    text-align: center;
+}
+
+.contenedor {
+    display: grid;
+    justify-content: flex-end;
+    gap: 5px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr; /*para marcar cuantas columnas tendrá*/
+    border: solid 2px red;
+    padding: 10px;
+    gap: 20px;
+}
+
+.primera{
+    background-color: red;
+    border: solid black;
+    color: white;
+    grid-column-start: 1; /*marca la columna en la que empieza*/
+    grid-column-end: 3; /*marca la columna en la que termina*/
+}
+
+.segunda{
+    background-color: green;
+    color: white;
+    border: solid black;
+    grid-column: 1; /*marca la columna en la que esta*/
+}
+
+.tercera{
+    background-color: blue;
+    color: white;
+    border: solid black;
+    grid-column: 1; /*marca la columna en la que esta*/
+}
+
+.cuarta{
+    background-color: orange;
+    color: white;
+    border: solid black;
+    grid-column: 2; /*marca la columna en la que esta*/
+    grid-row-start: 2; /*marca desde donde empieza a estirar vertical*/
+    grid-row-end: 4; /*marca donde termina de estirar en vertical*/
+}
+
+.quinta{
+    background-color: aqua;
+    color: white;
+    border: solid black;
+    grid-column: 1; /*marca la columna en la que esta*/
+}
+
+.sexta{
+    background-color: greenyellow;
+    color: white;
+    border: solid black;
+    grid-column: 2; /*marca la columna en la que esta*/
+}
+
+.septima{
+    background-color: black;
+    color: white;
+    border: solid black;
+    grid-column-start: 1; /*marca la columna en la que empieza a estirar en horizonta*/
+    grid-column-end: 3; /*marca la columna en la que termina de estirar en horizontal*/
+}
+>>>>>>> 82f4e9503a8762dedbb026e7109ff3054f9e1c19

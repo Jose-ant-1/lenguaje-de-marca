@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     text-align: center;
 }
@@ -85,3 +86,92 @@ body{
     /*grid-column-end: 3; /*marca la columna en la que termina de estirar en horizontal*/
     grid-area: negro negro;
 }
+=======
+body{
+    text-align: center;
+}
+
+.contenedor {
+    display: grid;
+    justify-content: flex-end;
+    gap: 5px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr; /*para marcar cuantas columnas tendrá*/
+    border: solid 2px red;
+    padding: 10px;
+    gap: 20px;
+    grid-template-areas:
+    "primera primera"
+    "verde naranja"
+    "azul naranja"
+    "celeste verde"
+    "negro negro"
+}
+
+.primera{
+    background-color: red;
+    border: solid black;
+    color: white;
+    padding: 10px;
+    /*
+    grid-column-start: 1; /*marca la columna en la que empieza
+    grid-column-end: 3; /*marca la columna en la que termina*/
+    grid-area: primera;
+    
+}
+
+.segunda{
+    background-color: green;
+    color: white;
+    border: solid black;
+    padding: 10px;
+    /*grid-column: 1; /*marca la columna en la que esta*/
+    grid-area: verde;
+}
+
+.tercera{
+    background-color: blue;
+    color: white;
+    border: solid black;
+    padding: 10px;
+    /*grid-column: 1; /*marca la columna en la que esta*/
+    grid-area: auzl ;
+}
+
+.cuarta{
+    background-color: orange;
+    color: white;
+    border: solid black;
+    padding: 10px;
+    /*grid-column: 2; /*marca la columna en la que esta*/
+    /*grid-row-start: 2; /*marca desde donde empieza a estirar vertical*/
+    /*grid-row-end: 4; /*marca donde termina de estirar en vertical*/
+    grid-area: naranja naranja;
+}
+
+.quinta{
+    background-color: aqua;
+    color: white;
+    border: solid black;
+    padding: 10px;
+    grid-column: 1; /*marca la columna en la que esta*/
+}
+
+.sexta{
+    background-color: greenyellow;
+    color: white;
+    border: solid black;
+    padding: 10px;
+    grid-area: verde; /*marca la columna en la que esta*/
+}
+
+.septima{
+    background-color: black;
+    color: white;
+    border: solid black;
+    padding: 10px;
+    /*grid-column-start: 1; /*marca la columna en la que empieza a estirar en horizonta*/
+    /*grid-column-end: 3; /*marca la columna en la que termina de estirar en horizontal*/
+    grid-area: negro negro;
+}
+>>>>>>> 82f4e9503a8762dedbb026e7109ff3054f9e1c19

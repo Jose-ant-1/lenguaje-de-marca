@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esto es una página de prueba"/>
+    <meta name="author" content="José Antonio González"/>
+    <meta name="keywords" content="etiquetas,pagina"/>
+    <title>Página de contacto</title>
+</head>
+<body>
+    <h1>Las mejores peliculas y series (AGOSTO)</h1>
+    <ol>
+        <li><a href="index.html">Página principal</a></li>
+        <li><a href="carteles.html">Carteles de películas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="https://www.filmaffinity.com">Página Filmafinitty</a></li>
+    </ol>
+    <hr/>
+    <h2>Contacto</h2>
+    <form action="/enviar" method=""POST>
+        <label for="Nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br/>
+        <label for="email">email: </label>
+        <input type="email" id="email" name="email"><br/>
+        <label for="mensaje">Mensaje: </label>
+        <textarea name="mensaje" id="mensaje"></textarea><br/>
+        <label for="opciones">Opciones</label>
+        <select name="" id="opciones">
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+        </select><br/>
+        <input type="submit" value="Enviar">
+        <input type="submit" value="Borrar">
+    </form>
+    
+</body>
+</html>

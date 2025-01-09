@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 
 <biblioteca>
@@ -37,4 +38,45 @@
         <sinopsis>Lorem ipsum</sinopsis>
     </libro>
     <!--Este es un libro que es individual-->
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca>
+    <libro>
+        <titulo>Siega</titulo>
+        <autor>Nea Shusterman</autor>
+        <anio_publicacion>2018</anio_publicacion>
+        <generos>
+            <genero>ficcion</genero>
+            <genero>psicológico</genero>
+        </generos>
+        <idioma>español</idioma>
+        <sinopsis>Lorem ipsum</sinopsis>
+    </libro>
+    <!--Este libro pertenece a una trilogía-->
+    <libro>
+        <titulo>El Quijote</titulo>
+        <autor>Miguel De Cervantes</autor>
+        <anio_publicacion>1605</anio_publicacion>
+        <generos>
+            <genero>clásico</genero>
+            <genero>ficcion</genero>
+        </generos>
+        <idioma>español</idioma>
+        <sinopsis>Lorem ipsum</sinopsis>
+    </libro>
+    <!--Este libro pertenece a una bilogia(dos libros en total)-->
+    <libro>
+        <titulo>la_celestina</titulo>
+        <autor>Fernando De Rojas</autor>
+        <anio_publicacion>1499</anio_publicacion>
+        <generos>
+            <genero>Dramatico</genero>
+            <genero>clásico</genero>
+        </generos>
+        <idioma>Español</idioma>
+        <sinopsis>Lorem ipsum</sinopsis>
+    </libro>
+    <!--Este es un libro que es individual-->
+>>>>>>> 82f4e9503a8762dedbb026e7109ff3054f9e1c19
 </biblioteca>

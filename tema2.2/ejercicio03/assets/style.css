@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background: rgba(241, 239, 239, 0.645);
     text-align: center;
@@ -87,4 +88,94 @@ aside{
     background-color: orange;
     color: white;
     font-weight: bold;
+=======
+body{
+    background: rgba(241, 239, 239, 0.645);
+    text-align: center;
+}
+
+#container{
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "nav nav nav nav"
+    "section section section aside"
+    "footer footer footer footer";
+    
+}
+
+header{
+    grid-area: header;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+nav{
+    grid-area: nav;
+    background-color: rgb(150, 222, 255);
+    text-align: left;
+}
+
+li{
+    display: inline;
+    padding: 20px;
+}
+
+article{
+    background-color:lightgray;
+    width: 200px;
+    height: 90px;
+    border: solid thin;
+    padding: 3px 20px 70px 20px;
+}
+
+section{
+    grid-area: section;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin: 5px;
+
+}
+
+#a1{
+    grid-column: 1/2;
+    grid-row: 1;
+}
+#a2{
+   grid-column: 2/3;
+   grid-row: 1;
+}
+
+#a3{
+    grid-column: 3/4;
+    grid-row: 1;
+}
+
+#a4{
+    grid-column: 1/2;
+    grid-row: 2;
+}
+
+#a5{
+    grid-column: 2/3;
+    grid-row: 2;
+}
+
+
+footer{
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+aside{
+    grid-area: aside;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+>>>>>>> 82f4e9503a8762dedbb026e7109ff3054f9e1c19
 }
