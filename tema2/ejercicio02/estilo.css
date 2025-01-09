@@ -1,0 +1,21 @@
+h1 {
+    color: darkred;
+    font-family: Georgia;
+    size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    size: 24px;
+    font-weight: bold;
+
+}
+
+body {
+    color: darkblue;
+    background:  url(./asests/fondo.gif);
+    font-family: Verdana;
+    size: 12px;
+    font-weight: normal;
+
+}

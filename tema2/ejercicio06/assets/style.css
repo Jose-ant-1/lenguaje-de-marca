@@ -1,0 +1,77 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+table.horario td,th{
+    padding: 8px;
+    margin: auto;
+    text-align: center;
+    width: 20px;
+}
+
+table.horario{
+    margin: auto;
+    text-align: center;
+    border: solid, 1px;
+    border-collapse: collapse;
+}
+
+table.horario th{
+    background: lightgoldenrodyellow;
+    color: darkkhaki;
+    border-bottom: solid 1px;
+}
+
+table.horario tr{
+    background-color: lightblue;
+}
+
+table.horario tr.gris{
+    background-color: rgb(194, 204, 204);
+}
+
+table.horario caption{
+    color: green;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: green;
+    margin: auto;
+}
+table.horario tr.gris{
+    background-color: rgb(194, 204, 204);
+}
+
+table.horario tr.recreo{
+    background-color: aqua;
+}
+
+table.tabla2 td,th{
+    margin: auto;
+    text-align: center;
+}
+
+table.tabla2{
+    margin: auto;
+    text-align: center;
+    border: solid, 1px;
+    border-collapse: collapse;
+}
+
+table.tabla2 th{
+    background-color: lightblue;
+}
+
+
+
+table.tabla2 caption{
+    color: darkblue;
+}
+
+.amarillo{
+    background-color: lightyellow;
+}
+
+
+

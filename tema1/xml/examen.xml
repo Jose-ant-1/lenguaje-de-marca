@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pedido xmlns:ped="http://www.iesbelen.org/pedido" xmlns:cli="http://www.janderenterprises/com/client">
+   
+    <cli:ordenante>
+        <cli:nombre_completo>Alicia Lopez</cli:nombre_completo>
+        <cli:direccion>Avenida del Condestable, 72</cli:direccion>
+        <cli:poblacion>Almogía</cli:poblacion>
+        <cli:provincia>Málaga</cli:provincia>
+        <cli:codigo_postal>29211</cli:codigo_postal>
+    </cli:ordenante>
+   
+    <ped:numero>65412</ped:numero>
+    <ped:fecha>
+        <ped:dia>22</ped:dia>
+        <ped:mes>10</ped:mes>
+        <ped:año>2015</ped:año>
+    </ped:fecha>
+   
+    <ped:articulos>
+        <ped:articulo>
+            <ped:nombre referencia="22321-W">Cortadora de cesped</ped:nombre>
+            <ped:cantidad>1</ped:cantidad>
+            <ped:precio>423,65</ped:precio>
+        </ped:articulo>
+
+        <ped:articulo>
+            <ped:nombre referencia="73623-A">Monitor de bebé</ped:nombre>
+            <ped:cantidad>2</ped:cantidad>
+            <ped:precio>89,95</ped:precio>
+        </ped:articulo>
+    </ped:articulos>
+    
+    <!--aquí se dan las especificaciones de entrega del ordenante-->
+    <ped:comentarios_entrega>
+        <ped:comentario>Es imprescindible la entrega en horario de tarde</ped:comentario>
+        <ped:comentario>El timbre interior no funciona. Hay que llamar a la puerta</ped:comentario>
+    </ped:comentarios_entrega>
+</pedido>

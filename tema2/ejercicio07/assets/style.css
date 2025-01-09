@@ -1,0 +1,16 @@
+body{ 
+    margin: 20; 
+    font: Arial 14px; 
+    color: green; 
+    font-weight: bold; 
+    background-color: black;} 
+   form{ 
+    margin: auto; 
+    background: green; 
+    border:solid green 2px;  
+    width: 600px;  /*Tamaño fijo del formulario*/ 
+    padding: 10px;} 
+   div { 
+    display: block; 
+    clear: both;  /* Todos los div son tipo bloques para que estén en una linea diferente*/ 
+    } 

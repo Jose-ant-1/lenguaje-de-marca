@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esto es una página de prueba"/>
+    <meta name="author" content="José Antonio González"/>
+    <meta name="keywords" content="etiquetas,pagina"/>
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <h2>Ejercicio 1</h2>
+    <fieldset>
+        <legend>Detalles personales</legend>
+        <div>
+            <label for="nombre">Nombre </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Pon tu nombre" maxlength="40" size="100">
+        </div>
+        <div>
+            <label for="edad">edad </label>
+            <input type="number" id="edad" nombre="edad" min="0" max="120">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Información de comentario</legend>
+        <div>
+            <label for="usuario">Usuario </label>
+            <input type="text" id="usuario" name="usuario" placeholder="Pon tu usuario" maxlength="40" size="100">
+        </div>
+        <div>
+            <label for="contrasenia">Contraseña </label>
+            <input type="password" id="contrasenia" name="contrasenia" size="100">
+        </div>
+        <div>
+            <label for="comentario">Comentario </label>
+            <input type="text" name="comentario" id="comentario" placeholder="Pon tu comentario" maxlength="50" size="100">
+        </div>
+        <div>
+        <label for="email">Email </label>
+        <input type="email" name="email" id="email" placeholder="Pon tu email" size="100">
+        </div>
+        <div>
+            <label for="nacimiento">Fecha nacimiento </label>
+            <input type="date" name="nacimiento" id="nacimiento">
+        </div>
+        <div>
+            <label for="fichero">Introduce un fichero: </label>
+            <input type="file" name="fichero" id="fichero">
+        </div>
+        <div>
+            <input type="submit" value="Enviar"/>
+            <input type="reset" value="Borrar"/>
+        </div>
+    </fieldset>
+    <h2>Ejercicio 2</h2>
+    <div>
+        <label for="nombre2">Nombre </label>
+        <input type="text" name="nombre2" id="nombre2" maxlength="40">
+    </div>
+    <div>
+        <label for="cuadro">comentario: </label>
+        <textarea></textarea>
+    </div>
+    <div>
+        <label for="color">Seleccione el color de su avatar </label>
+        <input type="color" name="color" id="color">
+    </div>
+    <div>
+        <input type="submit" value="Enviar comentario"/>
+    </div>
+    <h2>Ejercicio 3</h2>
+    <div>
+        <label for="comida1">Elige tu comida favorita: </label>
+        <select name="comida1" id="ensalada">
+            <option value="Ensalada">Ensalada</option>
+            <option value="kebab">Kebab</option>
+            <option value="hamburguesa">Hamburguesa</option>
+            <option value="pizza">Pizza</option>
+        </select>
+    </div>
+    <div>
+        <input type="submit" value="Enviar"/>
+        <input type="reset" value="Borrar"/>
+    </div>
+    <h2>Ejercicio 4</h2>
+    <div>
+        <label for="comida2">Elige tu comida favorita: </label>
+        <input type="checkbox" name="comida2" id="comida2" value="kebab" checked>Kebab</input>
+        <input type="checkbox" name="comida2" id="comida2" value="ensalada">Ensalada</input>
+        <input type="checkbox" name="comida2" id="comida2" value="hamburguesa">Hamburguesa</input>
+        <input type="checkbox" name="comida2" id="comida2" value="pizza">Pizza</input>
+    
+    </div>
+    <div>
+        <label for="paga">Metodo paga:</label>
+        <input type="radio" name="paga" id="paga" value="vale">Vale</input>
+        <input type="radio" name="paga" id="paga" value="tarjeta">Tarjeta</input>
+        <input type="radio" name="paga" id="paga" checked value="cash">CASH</input>
+    </div>
+    <div>
+        <input type="submit" value="entrar">
+        <input type="reset" value="Borrar">
+    </div>
+
+</body>
+</html>

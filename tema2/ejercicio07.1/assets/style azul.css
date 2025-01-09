@@ -1,0 +1,33 @@
+body{
+    size: 10px;
+    font-style: normal;
+    color: black;
+    background-color: lightslategrey;
+    padding: 10px;
+}
+
+
+
+form{ 
+    margin: auto; 
+    background: darkblue; 
+    border:solid black 2px;  
+    width: 600px;  /*Tamaño fijo del formulario*/ 
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+div { 
+    display: block; 
+    clear: both;  /* Todos los div son tipo bloques para que estén en una linea diferente*/ 
+    margin: 10px 0 0 0;
+}
+
+div label {  
+    display: inline; 
+    width: 20%;   /*Tamaño de la etiqueta y posición izquierda el resto se ocupará por el INPUT*/ 
+    float: left; 
+}
+
+

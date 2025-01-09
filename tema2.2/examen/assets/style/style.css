@@ -1,0 +1,152 @@
+#color{
+    color: aqua;
+}
+
+body{
+    background-color: gray;
+}
+
+
+.contenedor{
+    display: grid;
+    /*grid-template-areas:
+    "espacio0 espacio0 espacio0 espacio1 espacio2"
+    "espacio3 espacio4 espacio5 espacio6 espacio7"
+    "espacio8 espacio8 espacio9 espacio10 espacio10"
+    ;*/
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    border: solid 2px red;
+    gap: none;
+
+}
+
+.espacio0{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: black;
+    color: white;
+    border: solid white;
+}
+
+.espacio1{
+    grid-column-start:4;    
+    grid-column-end: 5;
+    background-color: blue;
+    grid-row: 1;
+    background-image: url(../images/icono-usuario.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.espacio2{
+    grid-column-start:5;    
+    grid-column-end: 6;
+    grid-row: 1;
+    background-image: url(../images/fondo1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.espacio3{
+    grid-column-start: 1;    
+    grid-column-end: 2;
+    grid-row: 2;
+    background-image: url(../images/fondo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 100%;
+}
+.espacio4{
+    grid-column-start: 2;    
+    grid-column-end: 3;
+    grid-row: 2;
+    background-image: url(../images/icono-clipboard.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+    max-width: 90%;
+    max-height: 90%;
+}
+.espacio5{
+    grid-column-start: 3;    
+    grid-column-end: 4;
+    grid-row: 2;
+    background-image: url(../images/icono-check.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aquamarine;
+    max-width: 90%;
+    max-height: 90%;
+}
+.espacio6{
+    grid-column-start: 4;    
+    grid-column-end: 5;
+    grid-row: 2;
+    background-image: url(../images/fondo3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 100%;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.espacio7{
+    grid-column-start: 5;    
+    grid-column-end: 6;
+    grid-row: 2;
+    background-image: url(../images/icono-mail.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: orange;
+    width: 100%;
+    padding: 100%;
+}
+
+.espacio8{
+    grid-column-start: 1;    
+    grid-column-end: 3;
+    grid-row: 3;
+    background-image: url(../images/fondo4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 100%;
+}
+
+.espacio9{
+    grid-column-start: 3;    
+    grid-column-end: 4;
+    grid-row: 3;
+    background-image: url(../images/icono-mensaje.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: darkblue;
+    width: 100%;
+    padding: 100%;
+}
+
+.espacio10{
+    grid-column-start: 5;    
+    grid-column-end: 7;
+    grid-row: 3;
+    background-image: url(../images/fondo5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 100%;
+}
+

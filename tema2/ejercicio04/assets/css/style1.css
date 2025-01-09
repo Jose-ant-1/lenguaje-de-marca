@@ -1,0 +1,59 @@
+/*Estilo de link*/
+a:link{
+    color: blue;
+    text-decoration: none;
+    text-transform: none;
+}
+/*Estilo de link al visitarlo*/
+a:visited{
+    color: blue;
+    text-decoration: none;
+    text-transform: none;
+}
+/*Estilo de enlace al pasar el ratón por encima*/
+a:hover{
+    color: white;
+    text-decoration: underline; 
+}
+
+body{
+    background-color: lightgrey;
+}
+
+nav{
+    background-color: lightcoral;
+    font-weight:bold;
+    font-size: 14px; 
+    Color:darkred ; 
+    font-family: Arial, Times, sans-serif; 
+    /*border para darle un borde especial*/ 
+    border:  3px solid ; 
+    /*border-radius lo redondea*/
+    border-radius: 25px;
+    /*margin para marcar los bordes*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*box-shadow para darle una sombra*/
+    box-shadow: 2px 2px 5px black;
+    /*width para dar el ancho*/
+    width: 20%;
+    /*padding para margen general*/
+    padding: 10px;
+    /*list-style-image para cambiar el punto a una imagen*/
+    list-style-image: url(/tema2/ejercicio4/assets/imagenes/carpeta.gif);
+}
+
+
+h1{
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: bold;
+    color: darkblue;
+    text-align: center;
+    background-color: white;
+    border-top: solid blue  2px;
+    border-bottom: solid blue 2px;
+    margin: 20px auto;
+    padding: 2px;
+    
+}
