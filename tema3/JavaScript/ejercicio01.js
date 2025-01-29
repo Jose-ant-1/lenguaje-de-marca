@@ -34,7 +34,20 @@ let probCritico = 0.5;
 let EsCritico = probCritico > Math.random();
 
 let variable = esCritico ? danyoBase * multCritico : danyoBase;
+console.log("El heroe inflinge " + danyoBase + " puntos de daño porque es critico tiene valor " + EsCritico);
+
+/**
+
 console.log(`El heroe inflige ${danyoBase} puntos de daño porque es critico tiene valor` + esCritico);
+
+let danyoBase = 50;
+let multCritico = 2 ;
+let probCritico = 0.5;
+let esCritico = probCritico > Math.random();
+
+let variable=esCritico ? danyoBase * multCritico : danyoBase;
+ * 
+ */
 
 
 
