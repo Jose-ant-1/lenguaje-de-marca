@@ -1,0 +1,9 @@
+{"nombre": "intel",
+    "datos":{
+        "direccion": "calle nunca vista numero 3",
+        "telefono": "123456789",
+        "email": "ejemplo@example.com"
+    },
+    "numeroEmpleados": 83,
+    "deudas": true
+}

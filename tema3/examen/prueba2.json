@@ -1,0 +1,30 @@
+{
+    "bibliotecaCentral":[
+        {
+            "isbn":"978-3-16",
+            "genero": "Ficcion",
+            "titulo": "El gran viaje",
+            "autor":{
+                "nombre": "Juan Gomez",
+                "nacionalidad": "Española"
+            },
+            "disponibilidad":{
+                "copias": 3,
+                "Prestadas": 1
+            }
+        },
+        {
+            "isbn": "978-0-262",
+            "genero": "Tecnología",
+            "titulo": "Introducción a la Inteligencia Artificial",
+            "autor":{
+                "nombre": "Susan Mitchell",
+                "nacionalidad": "Estadounidense"
+            },
+            "disponibilidad":{
+                "copias": 5,
+                "Prestadas": 2
+            }
+        }
+    ]
+}

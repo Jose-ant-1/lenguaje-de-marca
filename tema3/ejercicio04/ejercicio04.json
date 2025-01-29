@@ -1,0 +1,44 @@
+{
+    "estudiante":[
+        {"nombreTitulacion": "bachillerato",
+            "nombreEstudiante":{
+                "Apellido": "Alcazar",
+                "nombre": "Evelyn"
+            },
+            "Email": "evelyn@nose.net",
+            "Repite": false,
+            "nombreAmigos":["Dorotea","clara"],
+            "Asignaturas":[
+                {
+                    "nombre": "mates",
+                    "nota": 7
+                },
+                {
+                    "nombre": "lengua",
+                    "nota": 6
+                }
+            ]
+        },
+        {"nombreTitulacion": "ESO",
+        "nombreEstudiante":{
+            "Apellido": "Serrano",
+            "nombre": "Matias"
+        },
+        "Email": "matias@sise.pl",
+        "Repite": false,
+        "nombreAmigos":["Dorotea","Camilo"],
+        "Asignaturas":[
+            {
+                "nombre": "historia",
+                "nota": 5
+            },
+            {
+                "nombre": "Tecnologia",
+                "nota": 6
+            }
+        ]
+    }
+    
+
+    ]
+}

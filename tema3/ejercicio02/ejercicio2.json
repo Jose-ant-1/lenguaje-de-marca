@@ -1,0 +1,19 @@
+{
+    "numeroEstudiantes":{
+        "primaria": 123,
+        "secundaria": 456,
+        "formacionProfesional":{
+            "fpb": 1234,
+            "cfgm": 5678,
+            "cfgs": 9012
+        },
+        "bachillerato": 1234
+    },
+    "nombreColegio": "Belen",
+    "ciudad":{
+        "nombre": "malaga",
+        "porvincia": "malaga",
+        "codigoPostal": 29004,
+        "distancia": 20
+    }
+}

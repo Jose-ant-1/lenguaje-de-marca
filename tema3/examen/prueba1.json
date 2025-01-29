@@ -1,0 +1,36 @@
+{
+    "cursos":[
+        {
+            "nombre": "Desarrollo de aplicaciones",
+            "nivel": "grado superior",
+            "aulas":[
+                {
+                    "id": 101,
+                    "capacidad": 30,
+                    "equipamiento":["ordenadores", "Proyector", "Pizarra"]
+                },
+                {
+                    "id": 102,
+                    "capacidad": 25,
+                    "equipamiento":["ordenadores", "Pizarra"]
+                }
+        ]
+        },
+        {
+            "nombre": "Redes y Sistemas",
+            "nivel": "grado superior",
+            "aulas":[
+                {
+                    "id": 201,
+                    "capacidad": 20,
+                    "equipamiento":["Switches", "Routers", "Pizarra"]
+                },
+                {
+                    "id": 202,
+                    "capacidad": 15,
+                    "equipamiento":["Switches", "Proyector", "ordenadores"]
+                }
+        ]
+        }
+    ]
+}

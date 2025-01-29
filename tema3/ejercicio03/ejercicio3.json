@@ -1,0 +1,34 @@
+{
+    "apellidoYNombre": "carlos salazar",
+    "datosContacto":{
+        "CorreoElectronico": "carlos@no.gob",
+        "telefono": "123456789"
+    },
+    "ciudadOrigen":"Archidona",
+    "nombreAcompañantes":["Maria Cervantes", "Victor Villanueva"],
+    "gastoViaje": 4321,
+    "Destinos":[
+        {"nombre": "Puerto Rico",
+            "satisfecho": true,
+            "ciudad": "San Juan",
+            "hotel":{
+                "nombre": "Puerto Mayor",
+                "estrellas": 4,
+                "precioNoche": 123,
+                "numeroNoches": 7
+            } 
+        },
+        {"nombre": "Francia",
+            "satisfecho": true,
+            "ciudad": "Paris",
+            "hotel":{
+                "nombre": "Baguette",
+                "estrellas": 4,
+                "precioNoche": 321,
+                "numeroNoches": 5
+            } 
+
+        } 
+    ]
+
+}
