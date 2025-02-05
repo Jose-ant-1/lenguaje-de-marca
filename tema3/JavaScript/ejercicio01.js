@@ -4,6 +4,7 @@ let vida = 100;
 const armaPrincipal = "Espada del Destino";
 let armaSecundaria = "Arco simple";
 let armadura = true;
+//mosrtar info
 console.log(`Estado del héroe:`);
 console.log(`Nombre: ${nombre}`);
 console.log(`Nivel: ${nivel}`);

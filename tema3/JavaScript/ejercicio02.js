@@ -19,6 +19,7 @@ let monedas = [1,5,3,6,2];
 let atuendo = ['Duende','Arquero','Caballero','Mago'];
 let contadorMonedas = 0;
 
+atuendo.push("Armadura de escamas");
 for(let elemento of monedas) {
     contadorMonedas += elemento;
 }
@@ -30,24 +31,8 @@ for(let elemento of atuendo) {
 }
 
 function curar(vida, CURACION) {
-    if (vida + CURACION <= VIDA_MAX) {
-        vida += CURACION;
-        alert (`El heroe se recuperó. Ahora tiene ${vida} puntos de vida`);    
-    } else {
-        vida = 100;
-        alert (`El heroe se recuperó. Ahora tiene ${vida} puntos de vida`);
-    }
+    return Math.min(vida + CURACION, VIDA_MAX);
 }
 
-console.log(curar);
-
-
-
-
-
-
-
-
-
-
+vida = curar(vida, CURACION);
 
