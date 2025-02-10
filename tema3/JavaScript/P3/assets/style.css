@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    color: brown;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+
+#primera{
+    grid-column: 1;
+    background-color: aliceblue;
+    padding: 10px;
+}
+#segunda{
+    grid-column: 2;
+    background-color: aliceblue;
+}
+#tercera{
+    grid-column: 3;
+    background-color: aliceblue;
+}
+
+#cuarta{
+    grid-column: 1;
+    background-color: aliceblue;
+    padding: 50px;
+}
+#quinta{
+    grid-column: 2;
+    padding: 50px;
+}
+#sexta{
+    grid-column: 3;
+    background-color: aliceblue;
+    padding: 50px;
+}
+
+
+
+
+
+
+
