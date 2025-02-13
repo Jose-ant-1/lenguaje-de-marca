@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+#vacio {
+    background-color: black;
+}
+
+#activo{
+    background-color: red;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+
+#primera{
+    grid-column: 1;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+#tercera{
+    grid-column: 3;
+    background-color: aliceblue;
+}
+
+
+#quinta{
+    grid-column: 2;
+    padding: 50px;
+}
+
+
+#septima{
+    grid-column: 1;
+    background-color: aliceblue;
+    padding: 50px;
+}
+
+
+#novena{
+    grid-column: 3;
+    background-color: aliceblue;
+    padding: 50px;
+}
+
+
+
+
+
