@@ -7,9 +7,22 @@ h1{
     color: black;
 }
 
-#vacio {
+#vacio1 {
     background-color: black;
 }
+
+#vacio2 {
+    background-color: black;
+}
+
+#vacio3 {
+    background-color: black;
+}
+
+#vacio4 {
+    background-color: black;
+}
+
 
 #activo{
     background-color: red;
@@ -37,6 +50,7 @@ h1{
 #quinta{
     grid-column: 2;
     padding: 50px;
+    background-color: aliceblue;
 }
 
 
