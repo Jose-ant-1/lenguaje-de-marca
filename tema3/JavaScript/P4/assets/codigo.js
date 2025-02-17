@@ -1,8 +1,6 @@
 //creamos una constante por cada capa
 const primera=document.querySelector("#primera");
 const tercera=document.querySelector("#tercera");
-const quinta=document.querySelector("#quinta");
-const body=document.querySelector("body");
 const image = document.querySelector(".image");
 const button = document.querySelector("#boton");
 const botonEdad = document.querySelector("#botonEdad");
@@ -21,33 +19,48 @@ tercera.addEventListener("mouseover", cambiaImagen);
 botonEdad.addEventListener("click", compruebaNumero);
 //septima, cambiar color del fondo de negro a rojo
 button.addEventListener("click", cambiaFondos);
-//novena
+//novena, cambiar el estilo según diga el botón 
 boton1.addEventListener("click", () => {novena.style.color = "white", novena.style.backgroundColor = "black"});
 boton2.addEventListener("click", () => {novena.style.color = "black", novena.style.backgroundColor = "white"})
 boton3.addEventListener("click", () => {novena.style.color = "red", novena.style.backgroundColor = "grey"})
-
+//función que cambia el color del fondo de negro a rojo y viceversa
 function cambiaFondos() {
-    for(i in fondos) {
-
+    //hacemos un bucle para recorrer todo el array de los fondos que queremos cambiar
+    for (let i = 0; i < fondos.length; i++) {
+        //guardamos en una variable el cuadro que vamos a cambiar
+        let elemento = document.getElementById(fondos[i]);
+        //si este es de color negro, pasa a rojo
+        if (elemento.style.backgroundColor === "black") {
+            elemento.style.backgroundColor = "red";
+        //en caso contrario, pasa a negro
+        } else {
+            elemento.style.backgroundColor = "black";
+        }
     }
 }
-
+//función que comprueba si el numero está dentro del rango
 function compruebaNumero() {
     let resul=parseInt(edad.value);
+    //si lo está, devuelve el mensaje indicandolo
     if(resul>=1 && resul <=100) {
         alert("El número es válido");
+    //si no, manda el mensaje diciendo que no es válido
     } else {
         alert("El número no es válido");
     }
 }
-
+//función que cambia la imagen
 function cambiaImagen() {
-    const nombreImagen=image.src.split("/").pop();
+    //guardamos en una variable el nombre de la imagen
+    let nombreImagen=image.src.split("/").pop();
+    //comprobamos si es una u otra, si es la de invisible, pasa a ser el robot
     if(nombreImagen == "invisible.jpg") {
         image.src="./assets/robot.jpg";
+    //en caso contrario, pasa a ser la de invisible
     } else {
         image.src="./assets/invisible.jpg";
     }
 }
+
 
 
