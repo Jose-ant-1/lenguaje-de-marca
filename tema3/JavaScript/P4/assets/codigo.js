@@ -5,9 +5,8 @@ primera.addEventListener("mouseleave", () =>primera.style.color="black");
 
 
 //tercera, imagen, al pasar por encima cambia la imagen. No vuelve la anterior
-const tercera=document.querySelector("#tercera");
 const image = document.querySelector(".image");
-tercera.addEventListener("mouseover", cambiaImagen);
+image.addEventListener("mouseover", cambiaImagen);
 
 
 //quinta, comprobar si el numero está entre 1 y 100
