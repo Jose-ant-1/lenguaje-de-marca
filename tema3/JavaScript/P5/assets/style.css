@@ -1,0 +1,22 @@
+div{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+form{
+    border: solid;
+    border-radius: 10px;
+    background-color: white;
+}
+
+button{
+    background-color: green;
+    color: white;
+    border: solid green;
+    border-radius: 8px;
+}
