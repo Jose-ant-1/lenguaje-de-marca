@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+
+h1{
+    color: red;
+}
+
+
+table{
+    text-align: center;
+    margin: auto;
+    width: 100px;
+    border-collapse: collapse;
+}
+
+th{
+    border: solid 1px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+td{
+    border: solid 1px;
+    padding: 20px;
+}
