@@ -4,7 +4,7 @@ boton.addEventListener("click", buscarPokemon);
 
 async function buscarPokemon(){
 
-    const nombreABuscar = document.querySelector("#nombreABuscar").value.toLowerCase;
+    const nombreABuscar = document.querySelector("#nombreABuscar").value.toLowerCase();
     const url = `https://pokeapi.co/api/v2/pokemon/${nombreABuscar}`;
 
     const nombre = document.querySelector("#nombre");
@@ -17,12 +17,14 @@ async function buscarPokemon(){
 
         const data = await response.json();
 
-        nombre.innerHTML= `<h3>${data.name}</h3>`;
-        imagen.src=data.sprites.fron_default;
+        nombre.innerHTML= data.name;
+        imagen.src=data.sprites.front_default;
         altura.innerHTML=data.height;
         data.types.forEach(Element =>{
             tipo.innerHTML=tipo.innerHTML+`<li>${Element.type.name}</li>`;
         });
+        
+
 
     } catch (error) {
         imagen.src="";

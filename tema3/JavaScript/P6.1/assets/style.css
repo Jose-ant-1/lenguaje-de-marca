@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    margin: auto;
+    width: 100px;
+    border-collapse: collapse;
+}
+
+td{
+    border: solid 1px white;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-weight: bold;
+    color: white;
+}
+
+th{
+    border: solid 1px white;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+
+
