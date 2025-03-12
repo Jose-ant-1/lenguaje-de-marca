@@ -1,3 +1,4 @@
+
 const boton = document.querySelector("#buscar");
 
 boton.addEventListener("click", buscaPelicula);
@@ -15,12 +16,19 @@ async function buscaPelicula() {
         const response = await fetch(url);
         const data = await response.json();
         
+        if(data.Title == undefined || data.Year == undefined || data.Runtime == undefined) {
+            titulo.innerHTML="No se encontró película con ese nombre";
+            anyo.innerHTML="";  
+            duracion.innerHTML="";    
+        } else {
         titulo.innerHTML=data.Title;
-        anyo.innerHTML=data.Year;
-        duracion.innerHTML=data.Runtime;
+        anyo.innerHTML=data.Year; 
+        duracion.innerHTML=data.Runtime; 
+        }
+
 
     }catch (error) {
-        titulo.innerHTML="No se encontró pelicula con ese nombre";
+        titulo.innerHTML="Ha sucedido un error";
         anyo.innerHTML="";
         duracion.innerHTML="";
     }
@@ -28,4 +36,3 @@ async function buscaPelicula() {
 
 
 }
-

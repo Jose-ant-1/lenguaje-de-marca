@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Rick y Morty</title>
+</head>
+<body>
+    <h1>Buscador de personajes de Rick y Morty</h1>
+    <select name="personaje" id="personaje">
+        <option value="1">Rick Sanchez</option>
+        <option value="2">Morty Smith</option>
+        <option value="3">Summer Smith</option>
+        <option value="4">Beth Smith</option>
+        <option value="5">Jerry Smith</option>
+    </select>
+    <button id="buscar">buscar</button>
+    <table>
+        <tr>
+            <th>nombre</th>
+            <th>especie</th>
+            <th>genero</th>
+            <th>Imagen del personaje</th>
+            <th>Número de episodios donde ha salido el personaje</th>
+        </tr>
+        <tr>
+            <td id="nombre"></td>
+            <td id="especie"></td>
+            <td id="genero"></td>
+            <td><img src="./assets/image.png" alt="blank" id="imagen"></td>
+            <td id="episodios"></td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./assets/code.js"></script>
+</body>
+</html>
