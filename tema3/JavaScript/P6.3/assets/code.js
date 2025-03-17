@@ -23,10 +23,12 @@ async function buscarPesronaje(){
         genero.innerHTML=data.gender;
         img.src=data.image;
         episodio.innerHTML=data.episode.length;
-        if (data.gender == "male") {
-            body.style.color == "blue";
+        document.body.style.remove;
+        if (data.gender == "Male") {
+            document.body.style.color = "blue";
+            
         } else {
-            body.style.color == "pink";
+            document.body.style.color = "pink";
         }
 
     } catch (error) {
