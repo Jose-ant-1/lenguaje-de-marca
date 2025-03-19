@@ -11,7 +11,11 @@ let op2 = ""; // Segundo numero
 // bucle para los numeros
 btn.forEach(button => {
     button.addEventListener("click", () => {
-        if (operacion != "") {
+        if (button.textContent === "." && ((operacion === "" && op1.includes(".")) || (operacion !== "" && op2.includes(".")))) {
+            return; // Previene múltiples puntos decimales
+        }
+
+        if (operacion !== "") {
             op2 += button.textContent;
             mostrar.value = op2;
         } else {
@@ -20,6 +24,7 @@ btn.forEach(button => {
         }
     });
 });
+
 
 // bucle para las operaciones
 op.forEach(operator => {
