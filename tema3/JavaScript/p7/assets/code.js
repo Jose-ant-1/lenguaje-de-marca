@@ -4,13 +4,14 @@ const borrar = document.querySelector(".borrar");
 const op = document.querySelectorAll(".op");
 const result = document.querySelector(".result");
 
-let operacion = ""; //operación 
-let op1 = ""; // Primer numero
-let op2 = ""; // Segundo numero
+let operacion = ""; // Operación actual
+let op1 = ""; // Primer número
+let op2 = ""; // Segundo número
 
 // bucle para los numeros
 btn.forEach(button => {
     button.addEventListener("click", () => {
+<<<<<<< HEAD
         if (button.textContent === "." && ((operacion === "" && op1.includes(".")) || (operacion !== "" && op2.includes(".")))) {
             return; // Previene múltiples puntos decimales
         }
@@ -18,9 +19,28 @@ btn.forEach(button => {
         if (operacion !== "") {
             op2 += button.textContent;
             mostrar.value = op2;
+=======
+        if (button.textContent === ".") { // Si es un punto decimal
+            if (operacion !== "") {
+                if (!op2.includes(".")) { // Solo añade si no hay ya un punto
+                    op2 += ".";
+                    mostrar.value = op2;
+                }
+            } else {
+                if (!op1.includes(".")) { // Solo añade si no hay ya un punto
+                    op1 += ".";
+                    mostrar.value = op1;
+                }
+            }
+>>>>>>> eda0bf808e64397eebc8bc4ebc8c60ed6a2e0338
         } else {
-            op1 += button.textContent;
-            mostrar.value = op1;
+            if (operacion != "") {
+                op2 += button.textContent;
+                mostrar.value = op2;
+            } else {
+                op1 += button.textContent;
+                mostrar.value = op1;
+            }
         }
     });
 });
@@ -62,7 +82,7 @@ function calcula() {
             resultado = num1 * num2;
             break;
         case "/":
-            resultado = num2 !== 0 ? num1 / num2 : "Error"; // Maneja división entre 0
+            resultado = num1 / num2;
             break;
         default:
             resultado = "Error";
