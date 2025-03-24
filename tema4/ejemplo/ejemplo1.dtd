@@ -1,0 +1,15 @@
+
+ <!ELEMENT aviso (de,(para|cc)+,mensajes,direccion?)>
+ <!--el | es para tener una opcion de las dos, el + es puede tener mas de una, pero minimo una-->
+ <!--con ? hace que el campo no sea obligatorio-->
+ <!ELEMENT de (#PCDATA)>
+ <!ELEMENT para (#PCDATA)>
+ <!ELEMENT cc (#PCDATA)>
+ <!ELEMENT mensajes (mensaje*)>
+ <!--con * puedes tener 0 o más-->
+ <!--con + obliga a tener 1 o más -->
+ <!ELEMENT mensaje (#PCDATA)>
+ <!ELEMENT direccion (#PCDATA)>
+ <!-- <!ATTLIST mensaje tipo ID #REQUIRED> -->
+ <!-- abajo, se pone para que si no se ha puesto una de las opciones se pone automatica facebook-->
+ <!ATTLIST mensaje tipo (facebook|whatsup|x) "facebook">
