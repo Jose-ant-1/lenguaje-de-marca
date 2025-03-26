@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+<!DOCTYPE restaurante SYSTEM "./assets/restaurante.dtd">
+
+-->
+<!DOCTYPE restaurante>
+<restaurante>
+    <menu>
+        <platos>
+            <plato>
+                <nombre categoria="entrante"></nombre>
+                <listaIngredientes>
+                    <ingredientes></ingredientes>
+                    <ingredientes></ingredientes>
+                    <ingredientes></ingredientes>
+                </listaIngredientes>
+                <precio></precio>
+            </plato>
+            <plato>
+                <nombre categoria="Bebida"></nombre>
+                <listaIngredientes>
+                    <ingredientes></ingredientes>
+                    <ingredientes></ingredientes>
+                    <ingredientes></ingredientes>
+                </listaIngredientes>
+                <precio></precio>
+            </plato>        
+        </platos>
+    </menu>
+    
+    <recetas>
+        <receta>
+            <nombre comensal="adulto"></nombre>
+            <ingredientes>
+                <ingrediente>
+                    <nombre cantidad="200gm"></nombre>
+                </ingrediente>
+                <ingrediente></ingrediente>
+                <ingrediente></ingrediente>
+            </ingredientes>
+            <proceso>
+                <paso></paso>
+                <paso></paso>
+                <paso></paso>
+            </proceso>    
+        </receta>
+                <receta>
+            <nombre comensal="adulto"></nombre>
+            <ingredientes>
+                <ingrediente>
+                    <nombre cantidad="200gm"></nombre>
+                </ingrediente>
+                <ingrediente></ingrediente>
+                <ingrediente></ingrediente>
+            </ingredientes>
+            <proceso>
+                <paso></paso>
+                <paso></paso>
+                <paso></paso>
+            </proceso>    
+        </receta>
+    </recetas>
+    <clientes>
+        <cliente>
+            <nombre></nombre>
+            <telefono></telefono>
+            <correo></correo>
+            <pedidos>
+                <pedido>
+                    <fecha></fecha>
+                    <platos>
+                        <plato></plato>
+                        <plato></plato>
+                    </platos>
+                </pedido>
+            </pedidos>
+        </cliente>
+        <cliente>
+            <nombre></nombre>
+            <telefono></telefono>
+            <correo></correo>
+            <pedidos>
+                <pedido>
+                    <fecha></fecha>
+                    <platos>
+                        <plato></plato>
+                        <plato></plato>
+                    </platos>
+                </pedido>
+            </pedidos>
+        </cliente>
+    </clientes>
+
+
+
+</restaurante>
