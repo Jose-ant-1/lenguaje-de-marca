@@ -1,42 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
+
 <!DOCTYPE restaurante SYSTEM "./assets/restaurante.dtd">
 
--->
-<!DOCTYPE restaurante>
 <restaurante>
     <menu>
-        <platos>
-            <plato>
-                <nombre categoria="entrante"></nombre>
+        <platosMenu>
+            <platoMenu>
+                <nombrePlato categoria="entrante"></nombrePlato>
                 <listaIngredientes>
-                    <ingredientes></ingredientes>
-                    <ingredientes></ingredientes>
-                    <ingredientes></ingredientes>
+                    <ingredienteMenu></ingredienteMenu>
+                    <ingredienteMenu></ingredienteMenu>
+                    <ingredienteMenu></ingredienteMenu>
                 </listaIngredientes>
-                <precio></precio>
-            </plato>
-            <plato>
-                <nombre categoria="Bebida"></nombre>
+                <precio moneda="EUR"></precio>
+            </platoMenu>
+
+            <platoMenu>
+                <nombrePlato categoria="Bebida"></nombrePlato>
                 <listaIngredientes>
-                    <ingredientes></ingredientes>
-                    <ingredientes></ingredientes>
-                    <ingredientes></ingredientes>
+                    <ingredienteMenu></ingredienteMenu>
+                    <ingredienteMenu></ingredienteMenu>
+                    <ingredienteMenu></ingredienteMenu>
                 </listaIngredientes>
-                <precio></precio>
-            </plato>        
-        </platos>
+                <precio moneda="EUR"></precio>
+            </platoMenu>        
+        </platosMenu>
     </menu>
     
+
     <recetas>
         <receta>
-            <nombre comensal="adulto"></nombre>
+            <nombreReceta comensal="adulto"></nombreReceta>
             <ingredientes>
                 <ingrediente>
-                    <nombre cantidad="200gm"></nombre>
+                   <nombreIngrediente cantidad=""></nombreIngrediente>
                 </ingrediente>
-                <ingrediente></ingrediente>
-                <ingrediente></ingrediente>
             </ingredientes>
             <proceso>
                 <paso></paso>
@@ -44,14 +42,13 @@
                 <paso></paso>
             </proceso>    
         </receta>
-                <receta>
-            <nombre comensal="adulto"></nombre>
+
+        <receta>
+            <nombreReceta comensal="adulto"></nombreReceta>
             <ingredientes>
                 <ingrediente>
-                    <nombre cantidad="200gm"></nombre>
+                    <nombreIngrediente cantidad=""></nombreIngrediente>
                 </ingrediente>
-                <ingrediente></ingrediente>
-                <ingrediente></ingrediente>
             </ingredientes>
             <proceso>
                 <paso></paso>
@@ -60,9 +57,11 @@
             </proceso>    
         </receta>
     </recetas>
+
+
     <clientes>
         <cliente>
-            <nombre></nombre>
+            <nombreCliente></nombreCliente>
             <telefono></telefono>
             <correo></correo>
             <pedidos>
@@ -75,8 +74,9 @@
                 </pedido>
             </pedidos>
         </cliente>
+
         <cliente>
-            <nombre></nombre>
+            <nombreCliente></nombreCliente>
             <telefono></telefono>
             <correo></correo>
             <pedidos>
@@ -90,7 +90,4 @@
             </pedidos>
         </cliente>
     </clientes>
-
-
-
 </restaurante>
