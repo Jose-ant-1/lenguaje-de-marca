@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<expedientes>
+<expedientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rule.xsd">
     <expediente codigo="123456">
         <titulacion>DAM</titulacion>
         <estudiante>Ainhoa Gárate Lizarraga</estudiante>
