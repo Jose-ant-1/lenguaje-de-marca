@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE concesionario SYSTEM "coches.dtd">
+<concesionario>
+    <coches>
+        <cod_coche>123456789</cod_coche>
+        <marca>Opel</marca>
+        <modelo>Corsa</modelo>
+        <matricula>1234AZB</matricula>
+        <cv>nose</cv>
+        <plazas num_puertas="3"></plazas>
+    </coches>
+</concesionario>

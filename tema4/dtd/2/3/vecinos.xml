@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comunidad SYSTEM "vecinos.dtd">
+<comunidad>
+    <vecinos>
+        <cod_vecino carg="presidente"></cod_vecino>
+        <nombre>Pepe</nombre>
+        <apellidos>Grillo</apellidos>
+        <portal>3</portal>
+        <pisoyletra></pisoyletra>
+        <cod_cuenta_ord>32342341243</cod_cuenta_ord>
+    </vecinos>
+</comunidad>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+
+<biblioteca>
+    <libros>
+        <cod_libro cod="1">123</cod_libro>
+        <titulo>Lenguaje de MArcas</titulo>
+        <editorial editor="Javier Zurdo"></editorial>
+        <edicion anio="2008">1</edicion>
+        <isbn>9876543212</isbn>
+        <num_pag>300</num_pag>
+        <autor>Pablo</autor>
+    </libros>
+</biblioteca>
