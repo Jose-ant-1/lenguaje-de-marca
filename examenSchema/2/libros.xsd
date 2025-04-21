@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:simpleType name="tituloType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Za-z0-9\s]+"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="nombreType">
+        <xs:restriction base="xs:string"></xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="edadType">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="18"></xs:minInclusive>
+            <xs:maxInclusive value="120"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="fechaPublicacion">
+        <xs:restriction base="xs:string"></xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="nacionalidadType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="española"></xs:enumeration>
+            <xs:enumeration value="francesa"></xs:enumeration>
+            <xs:enumeration value="inglesa"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="biblioteca">
+      <xs:complexType>
+            <xs:sequence maxOccurs="unbounded">
+                <xs:element name="libro">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo" type="tituloType"></xs:element>
+                            <xs:element name="autor">
+                                <xs:complexType>
+                                    <xs:all>
+                                        <xs:element name="nombre" type="nombreType"></xs:element>
+                                        <xs:element name="edad" type="edadType"></xs:element>
+                                    </xs:all>
+                                    <xs:attribute name="nacionalidad" type="nacionalidadType"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="fechaPublicacion" type="fechaPublicacion"></xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="prestado" type="xs:boolean"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+      </xs:complexType>  
+    </xs:element>
+
+</xs:schema>
