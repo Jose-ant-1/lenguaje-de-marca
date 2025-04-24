@@ -8,17 +8,14 @@
             <title>Document</title>
         </head>
         <body>
-            <ul>
-                <xsl:for-each select="productos/producto">
-                    <xsl:if test="@tipo = 'electronica'">
-                        
-                            <li><xsl:value-of select="nombre"/> (<xsl:value-of select="precio"/>€) <xsl:value-of select="@tipo"/></li>
-                        
-                    
-                    </xsl:if>
-                    
-                </xsl:for-each>
-            </ul>
+            <xsl:for-each select="productos/producto">
+                <xsl:if test="@tipo = 'electronica'">
+
+                    <p>-<xsl:value-of select="nombre"/> (<xsl:value-of select="precio"/>€) <xsl:value-of select="@tipo"/></p>
+                
+                </xsl:if>
+                
+            </xsl:for-each>
         </body>
         </html>
 
