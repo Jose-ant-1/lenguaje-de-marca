@@ -28,20 +28,22 @@
                 </tr>
             </table>
             <h1>Tablets</h1>
-            <tr>
-                <th>Plataforma</th>
-                <th>RAM</th>
-                <th>Batería</th>
-            </tr>
-            <tr>
-                <xsl:for-each select="pedido/tablets/tablet">
-                    <xsl:if test="caracteristicas/memoria &gt; 2 and caracteristicas/tamanio &gt;= 7">
-                        <td><xsl:value-of select="plataforma"/></td>
-                        <td><xsl:value-of select="caracteristicas/memoria"/></td>
-                        <td><xsl:value-of select="caracteristicas/bateria"/></td>
-                    </xsl:if>
-                </xsl:for-each>
-            </tr>
+            <table>
+                <tr>
+                    <th>Plataforma</th>
+                    <th>RAM</th>
+                    <th>Batería</th>
+                </tr>
+                <tr>
+                    <xsl:for-each select="pedido/tablets/tablet">
+                        <xsl:if test="caracteristicas/memoria &gt; 2 and caracteristicas/tamanio &gt;= 7">
+                            <td><xsl:value-of select="plataforma"/></td>
+                            <td><xsl:value-of select="caracteristicas/memoria"/></td>
+                            <td><xsl:value-of select="caracteristicas/bateria"/></td>
+                        </xsl:if>
+                    </xsl:for-each>
+                </tr>
+            </table>
         </body>
         </html>
 
